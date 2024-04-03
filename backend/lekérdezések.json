@@ -1,0 +1,372 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "automuhely",
+    "dateExported": "2023-12-30T15:11:16.450Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "dolgozok",
+            "containerId": "",
+            "created": "2023-12-30T14:29:54.805Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "parts",
+            "containerId": "",
+            "created": "2023-12-30T14:42:00.843Z",
+            "sortNum": 15000
+        },
+        {
+            "_id": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "munkalapok",
+            "containerId": "",
+            "created": "2023-12-30T14:42:19.367Z",
+            "sortNum": 22500
+        },
+        {
+            "_id": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "munkalaptetelek",
+            "containerId": "",
+            "created": "2023-12-30T14:42:35.398Z",
+            "sortNum": 31250
+        }
+    ],
+    "requests": [
+        {
+            "_id": "918d9b51-068d-4a78-b0cb-886880864a81",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "getAll",
+            "url": "/dolgozok",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-30T14:30:32.578Z",
+            "modified": "2023-12-30T14:30:43.870Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "756cdbc2-3eec-49d6-a68c-4c108556cf8d",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "getAll",
+            "url": "/parts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-30T14:42:00.844Z",
+            "modified": "2023-12-30T14:42:52.769Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0a970fa9-3851-4608-b130-67907e0e0cc7",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "getAll",
+            "url": "/munkalapok",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-30T14:42:19.367Z",
+            "modified": "2023-12-30T14:45:18.212Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c459e78a-52ae-4a21-9de5-c52a4801dad6",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "getAll",
+            "url": "/munkalaptetelek",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-12-30T14:42:35.398Z",
+            "modified": "2023-12-30T14:46:35.667Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7bfbf449-0931-4c91-8114-1b59bdc512dd",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "get",
+            "url": "/dolgozok/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:30:46.515Z",
+            "modified": "2023-12-30T14:31:00.116Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e57b9787-4508-4e52-ac65-1205eb97e5eb",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "add",
+            "url": "/dolgozok",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:31:10.944Z",
+            "modified": "2023-12-30T14:31:54.284Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"adoszam\": 11,\n  \"vezeteknev\": \"Nagy2\",\n  \"keresztnev\": \"Rácz2\",\n  \"szuletett\": \"1996-08-17\",\n  \"lakcim\": \"9746 Salgótarján, Pál körönd 100.\",\n  \"pozicio\": \"szerelo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cb2f1b77-e1f0-4d2e-b24c-2bb86dafacac",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "get",
+            "url": "/parts/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:00.845Z",
+            "modified": "2023-12-30T14:43:41.505Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0cd01c37-172a-44cd-9172-0a98010ef180",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "add",
+            "url": "/parts",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:00.846Z",
+            "modified": "2023-12-30T14:44:16.211Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"cikkszam\": 31,\n  \"megnevezes\": \"nappali menetfény\",\n  \"listaar\": 252409,\n  \"beszallito\": \"Halász és Tsa\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "36c8335d-2be9-4b6d-9392-2e69a1078760",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "get",
+            "url": "/munkalapok/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:19.368Z",
+            "modified": "2023-12-30T14:45:28.106Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2466f11e-5f58-4d1e-b757-94252d92a815",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "add",
+            "url": "/munkalapok",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:19.369Z",
+            "modified": "2023-12-30T14:45:42.644Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rendeles_szam\": 11,\n  \"kelt\": \"1986-08-21\",\n  \"osszeg\": 190647\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea99bc03-abb0-4c4b-8f84-feb0097d70ff",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "get",
+            "url": "/munkalaptetelek/1/10",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:35.399Z",
+            "modified": "2023-12-30T14:59:14.982Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "60bc8fb7-9287-4dd9-ac31-2204fc516e01",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "add",
+            "url": "/munkalaptetelek",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:42:35.400Z",
+            "modified": "2023-12-30T15:07:25.103Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rendeles_szam\": 3,\n  \"alkatresz\": 5,\n  \"mennyiseg\": 2\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "91b6847e-9dd9-4228-8d6d-230dca042d81",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "del",
+            "url": "/dolgozok/11",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-30T14:32:06.786Z",
+            "modified": "2023-12-30T14:32:17.054Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "64331b45-4b4b-4e76-bcd3-2bf0650e8e5f",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "del",
+            "url": "/parts/31",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-30T14:42:00.847Z",
+            "modified": "2023-12-30T14:44:24.899Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6fb50ff8-b79f-42d2-b867-15485200c22d",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "del",
+            "url": "/munkalapok/11",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-30T14:42:19.370Z",
+            "modified": "2023-12-30T14:45:56.964Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c363e3ca-a4b4-4f43-b913-bc415bce46b4",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "del",
+            "url": "/munkalaptetelek/10/9",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2023-12-30T14:42:35.401Z",
+            "modified": "2023-12-30T15:07:59.341Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dab30aa8-0c01-488e-a68b-44d49d87494f",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "0359c00a-067f-45d9-a1b3-a59932f03311",
+            "name": "update",
+            "url": "/dolgozok/1?vezeteknev=Kovácsné-Nagy",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-30T14:32:35.154Z",
+            "modified": "2023-12-30T14:41:38.292Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "vezeteknev",
+                    "value": "Kovácsné-Nagy",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "fa7080f5-4c60-48a9-b2c1-5b231f088d3e",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "109b4fe5-f21d-47cc-8294-bd43645ccfa2",
+            "name": "update",
+            "url": "/parts/1?beszallito=Auto-Save Kft.",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-30T14:42:00.848Z",
+            "modified": "2023-12-30T14:45:05.311Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "beszallito",
+                    "value": "Auto-Save Kft.",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "987dea3d-8d70-4a98-8e2c-98eb1bfbfbd2",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "5a93af1c-0aeb-4eba-aa3b-f2a22239c8ff",
+            "name": "update",
+            "url": "/munkalapok/1?osszeg=180000",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-30T14:42:19.371Z",
+            "modified": "2023-12-30T14:46:26.427Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "osszeg",
+                    "value": "180000",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "fe6096b0-033e-4654-9c25-86149c4bb6ea",
+            "colId": "a61b6966-f0a9-4473-8dc3-acc8359c1562",
+            "containerId": "150a3c6f-70e5-4c0f-adbe-10c042f733be",
+            "name": "update",
+            "url": "/munkalaptetelek/9/3?mennyiseg=1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-12-30T14:42:35.402Z",
+            "modified": "2023-12-30T15:09:47.619Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "mennyiseg",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api"
+        }
+    }
+}

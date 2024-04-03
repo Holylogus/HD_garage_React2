@@ -1,0 +1,18 @@
+.page{
+    max-height: 100vh;
+}
+
+.row h2{
+    margin-top: 5vh;
+    padding-left: 5vw;
+    text-decoration: underline;
+}
+.card{
+    height: max-content;
+}
+.card-text{
+    font-size: small;
+}
+h2{
+    font-size: 16pt;
+}

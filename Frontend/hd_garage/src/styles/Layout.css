@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: Oazis;
+    src: url("../Fonts/Oasis-BW0JV.ttf");
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.brand{
+    font-family: Oazis;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
